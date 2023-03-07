@@ -21,4 +21,12 @@ use pocketmine\world\World;
 class Main extends PluginBase implements Listener
 {
   
-  // soon
+  public function onEnable() : void
+    {
+
+        $this->getServer()->getLogger()->info("ATM UI Enable");
+    }
+  
+   // soon
+  
+}
