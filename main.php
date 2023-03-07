@@ -27,6 +27,12 @@ class Main extends PluginBase implements Listener
         $this->getServer()->getLogger()->info("ATM UI Enable");
     }
   
+  public function onDisable() : void
+    {
+
+        $this->getServer()->getLogger()->info("ATM UI Disable");
+    }
+  
    // soon
   
 }
